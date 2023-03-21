@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ejercicio 2</title>
   </head>
+  <h1>Cuenta bancaria</h1>
+  <p id="descripcion"></p>
+  <form>
+    <label for="ingresar">Ingresar dinero:</label>
+    <input type="number" id="ingresar" />
+    <button type="button" onclick="ingresarDinero()">Ingresar</button>
+    <br />
+    <label for="extraer">Extraer dinero:</label>
+    <input type="number" id="extraer" />
+    <button type="button" onclick="extraerDinero()">Extraer</button>
+  </form>
+  <button type="button" onclick="informar()">Información de la cuenta</button>
   <body>
     <script src="ej-2.js"></script>
   </body>

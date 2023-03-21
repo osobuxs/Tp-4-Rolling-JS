@@ -7,4 +7,39 @@
 
 // Utiliza este objeto para mostrar la descripción, ingresar y extraer dinero y volver a mostrar la descripción del estado de la cuenta.
 
-// Rectángulos
+// Crear objeto cuenta
+let cuenta = {
+  titular: "Alex",
+  saldo: 0,
+  ingresar: function (cantidad) {
+    this.saldo += cantidad;
+  },
+  extraer: function (cantidad) {
+    if (cantidad <= this.saldo) {
+      this.saldo -= cantidad;
+    } else {
+      console.log("No se puede extraer más dinero del que hay en la cuenta");
+    }
+  },
+  informar: function () {
+    console.log(`Titular: ${this.titular}\nSaldo: ${this.saldo}`);
+  },
+};
+
+// Funciones para interactuar con el objeto cuenta desde el HTML
+function ingresarDinero() {
+  let cantidad = parseInt(document.getElementById("ingresar").value);
+  cuenta.ingresar(cantidad);
+  informar();
+}
+
+function extraerDinero() {
+  let cantidad = parseInt(document.getElementById("extraer").value);
+  cuenta.extraer(cantidad);
+  informar();
+}
+
+function informar() {
+  let descripcion = document.getElementById("descripcion");
+  descripcion.textContent = `Titular: ${cuenta.titular}\nSaldo: ${cuenta.saldo}`;
+}

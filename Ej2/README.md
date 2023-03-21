@@ -9,5 +9,3 @@ Un método informar() que retorne la información del estado de la cuenta.
 
 Utiliza este objeto para mostrar la descripción, ingresar y extraer dinero y volver a mostrar la descripción del estado de la cuenta.
 
-Rectángulos
-
