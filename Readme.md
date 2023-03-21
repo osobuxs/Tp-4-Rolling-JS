@@ -14,6 +14,8 @@
 
 #### [🔗 Ejercicio 5](https://github.com/osobuxs/Tp-4-Rolling-JS/tree/main/Ej5#readme)
 
+#### [🔗 Ejercicio 6](https://github.com/osobuxs/Tp-4-Rolling-JS/tree/main/Ej6#readme)
+
 
 
 
