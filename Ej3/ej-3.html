@@ -7,7 +7,26 @@
     <title>Ejercicio 3</title>
   </head>
   <body>
-    <h1>Lanzamiento de dados 50 veces</h1>
+    <h1>Rectángulos</h1>
+    <form>
+      <label for="alto">Alto:</label>
+      <input type="number" id="alto" />
+      <br />
+      <label for="ancho">Ancho:</label>
+      <input type="number" id="ancho" />
+      <br />
+      <button type="button" onclick="crearRectangulo()">
+        Crear rectángulo
+      </button>
+      <button type="button" onclick="mostrarPropiedades()">
+        Mostrar propiedades
+      </button>
+      <button type="button" onclick="calcularPerimetro()">
+        Calcular perímetro
+      </button>
+      <button type="button" onclick="calcularArea()">Calcular área</button>
+    </form>
+    <p id="descripcion"></p>
     <script src="ej-3.js"></script>
   </body>
 </html>
