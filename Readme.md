@@ -22,6 +22,9 @@
 
 #### [🔗 Ejercicio 9](https://github.com/osobuxs/Tp-4-Rolling-JS/tree/main/Ej9#readme)
 
+#### [🔗 Ejercicio 10](https://github.com/osobuxs/Tp-4-Rolling-JS/tree/main/Ej10#readme)
+
+
 
 
 
